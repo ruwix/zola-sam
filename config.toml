@@ -31,3 +31,15 @@ sam_bottom_menu = true
 
 [extra.sam_footer]
 text = "Some footer text."
+
+[extra.link_preview]
+title = "Sam Theme"
+thumbnail = ""
+thumbnail_width = "1200"
+thumbnail_height = "630"
+description = "My name is Sam."
+
+[extra.logo]
+url = ""
+width = "60"
+height = "60"

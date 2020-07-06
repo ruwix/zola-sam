@@ -37,6 +37,9 @@
     {% if config.extra.sam_footer %}
         <div class="section footer">
             {{ config.extra.sam_footer.text | safe }}
+            {% if config.extra.logo %}
+                <img class="logo" src="{{ config.extra.logo.url | safe }}" width="{{ config.extra.logo.width }}" height="{{ config.extra.logo.height }}">
+            {% endif %}
         </div>
     {% endif %}
 {% endmacro footer %}
